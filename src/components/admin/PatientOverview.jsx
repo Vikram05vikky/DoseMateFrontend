@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { User, Phone, Mail, MapPin, Calendar, Search, Filter } from 'lucide-react';
 
 // const BASE_URL = 'http://localhost:8080'; // <-- Adjust to your backend URL
-const BASE_URL = 'http://65.2.69.70:8080';
+const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
 
 
 const PatientOverview = () => {
@@ -192,5 +192,6 @@ const PatientOverview = () => {
     </div>
   );
 };
+
 
 export default PatientOverview;
