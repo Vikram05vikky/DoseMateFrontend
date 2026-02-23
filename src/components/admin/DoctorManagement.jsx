@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 
 // const API_BASE = 'http://localhost:8080';
-const BASE_URL = 'http://65.2.69.70:8080';
+const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
 
 
 const DoctorManagement = () => {
@@ -254,3 +254,4 @@ const DoctorManagement = () => {
 };
 
 export default DoctorManagement;
+
