@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\VIKRAM\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D @tailwindcss/postcss
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\VIKRAM\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2;C:\Users\VIKRAM\Desktop\Flutter Session\flutter_windows_3.16.9-stable.zip\flutter\bin;C:\flutter_windows_3.19.1-stable\flutter\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\Docker\Docker\resources\bin;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Users\VIKRAM\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\VIKRAM\AppData\Local\Programs\Python\Python313\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\VIKRAM\AppData\Local\Microsoft\WindowsApps;C:\Users\VIKRAM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\VIKRAM\Desktop\flutter;C:\flutter\bin;C:\Users\VIKRAM\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2;C:\Users\VIKRAM\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.10\bin;C:\MinGW\bin;C:\Users\VIKRAM\AppData\Roaming\npm;C:\Program Files\nodejs\;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  22.19.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\VIKRAM\Desktop\Dosemate\Frontend\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint .",
+      "preview": "vite preview",
+      "tailwind-init": "tailwindcss init -p"
+    },
+    "dependencies": {
+      "@tailwindcss/vite": "^4.1.13",
+      "lucide-react": "^0.544.0",
+      "react": "^19.1.1",
+      "react-dom": "^19.1.1",
+      "uuid": "^13.0.0"
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.35.0",
+      "@tailwindcss/postcss": "^4.1.13",
+      "@types/react": "^19.1.13",
+      "@types/react-dom": "^19.1.9",
+      "@vitejs/plugin-react": "^5.0.2",
+      "autoprefixer": "^10.4.21",
+      "eslint": "^9.35.0",
+      "eslint-plugin-react-hooks": "^5.2.0",
+      "eslint-plugin-react-refresh": "^0.4.20",
+      "globals": "^16.4.0",
+      "postcss": "^8.5.6",
+      "tailwindcss": "^4.1.13",
+      "typescript": "^5.9.2",
+      "vite": "^7.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
