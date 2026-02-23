@@ -4,7 +4,7 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 import axios from 'axios';
 
 // const API_BASE_URL = 'http://localhost:8080';
-const API_BASE_URL = 'http://65.2.69.70:8080';
+const API_BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
 
 axios.defaults.baseURL = API_BASE_URL;
 
@@ -145,3 +145,4 @@ export const AppProvider = ({ children }) => {
     </AppContext.Provider>
   );
 };
+
