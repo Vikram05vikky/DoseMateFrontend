@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Search, User, Phone, Mail, Calendar, Eye, Edit2, CheckCircle, ClipboardList, Clock, Loader2, X, Pill, Stethoscope } from 'lucide-react';
 
 // const BASE_URL = 'http://localhost:8080';
-const BASE_URL = 'http://65.2.69.70:8080';
+const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
 
 
 // --- HISTORY MODAL (NEW - FOR VIEW HISTORY) ---
@@ -623,3 +623,4 @@ const fetchPatientHistory = async (patient) => {
 };
 
 export default PatientList;
+
