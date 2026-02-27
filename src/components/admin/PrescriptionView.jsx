@@ -2,7 +2,9 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { FileText, User, Calendar, Pill, Clock, AlertTriangle } from 'lucide-react';
 
 // const BASE_URL = 'http://localhost:8080'; // <-- Adjust to your backend URL
-const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
+// const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
+
+const BASE_URL = '/api';
 
 
 const PrescriptionView = () => {
@@ -284,3 +286,4 @@ const PrescriptionView = () => {
 
 
 export default PrescriptionView;
+
