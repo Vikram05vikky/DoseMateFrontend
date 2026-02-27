@@ -3,7 +3,8 @@ import { Shield, Lock, Mail, AlertCircle } from 'lucide-react';
 import axiosInstance from '../axiosInstance'; 
 
 const AdminLogin = ({ onLogin, onSwitchToDoctor }) => {
-  const [email, setEmail] = useState('');
+  // const [email, setEmail] = useState('');
+  const [adminName, setAdminName] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -14,14 +15,13 @@ const AdminLogin = ({ onLogin, onSwitchToDoctor }) => {
     setIsLoading(true);
 
     try {
-      // ✅ Call backend
       const response = await axiosInstance.post('/admin/login', {
-        adminName: adminName, // backend expects "adminName", not "email"
+        adminName: adminName, 
         password: password,
       });
 
       if (response.data === 'Login Successful!') {
-        onLogin(email, password); // keep your existing prop for further navigation
+        onLogin(adminName, password); 
       } else {
         setError('Invalid Admin Name or Password');
       }
@@ -122,4 +122,5 @@ const AdminLogin = ({ onLogin, onSwitchToDoctor }) => {
 };
 
 export default AdminLogin;
+
 
