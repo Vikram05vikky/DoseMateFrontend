@@ -3,9 +3,9 @@ import { Users, UserCheck, Activity, FileText, TrendingUp, Clock } from 'lucide-
 
 // You will likely have a BASE_URL configured globally, but for now:
 // const BASE_URL = 'http://localhost:8080'; // <-- Adjust this to your backend URL
-// const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
+const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
 
-const BASE_URL = '/api';
+// const BASE_URL = '/api';
 
 
 const AdminDashboard = () => {
@@ -264,4 +264,5 @@ const AdminDashboard = () => {
 
 
 export default AdminDashboard;
+
 
