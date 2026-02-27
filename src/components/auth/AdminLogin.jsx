@@ -55,7 +55,7 @@ const AdminLogin = ({ onLogin, onSwitchToDoctor }) => {
                 <input
                   type="text"
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => setAdminName(e.target.value)}
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   placeholder="admin@hospital.com"
                   required
@@ -122,5 +122,6 @@ const AdminLogin = ({ onLogin, onSwitchToDoctor }) => {
 };
 
 export default AdminLogin;
+
 
 
