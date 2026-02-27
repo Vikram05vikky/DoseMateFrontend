@@ -4,7 +4,8 @@ import { Users, FileText, TrendingUp, CheckCircle, Activity, Calendar, Loader2 }
 
 // const BASE_URL = 'http://localhost:8080';
 // ⚠️ IMPORTANT: REPLACE THIS WITH THE ACTUAL LOGGED-IN DOCTOR'S ID FROM CONTEXT
-const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
+// const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
+const BASE_URL = '/api';
 
 const DOCTOR_ID = 1; 
 
@@ -246,3 +247,4 @@ const DoctorDashboard = ({ user }) => {
 
 
 export default DoctorDashboard;
+
