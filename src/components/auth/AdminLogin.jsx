@@ -16,7 +16,7 @@ const AdminLogin = ({ onLogin, onSwitchToDoctor }) => {
     try {
       // ✅ Call backend
       const response = await axiosInstance.post('/admin/login', {
-        adminName: email, // backend expects "adminName", not "email"
+        adminName: adminName, // backend expects "adminName", not "email"
         password: password,
       });
 
@@ -122,3 +122,4 @@ const AdminLogin = ({ onLogin, onSwitchToDoctor }) => {
 };
 
 export default AdminLogin;
+
