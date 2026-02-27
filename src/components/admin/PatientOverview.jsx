@@ -2,8 +2,9 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { User, Phone, Mail, MapPin, Calendar, Search, Filter } from 'lucide-react';
 
 // const BASE_URL = 'http://localhost:8080'; // <-- Adjust to your backend URL
-const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
+// const BASE_URL = 'https://dimktqsi2kki8.cloudfront.net/';
 
+const BASE_URL = '/api';
 
 const PatientOverview = () => {
   const [patients, setPatients] = useState([]);
@@ -195,3 +196,4 @@ const PatientOverview = () => {
 
 
 export default PatientOverview;
+
